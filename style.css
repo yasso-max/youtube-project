@@ -188,3 +188,6 @@ svg {
 .hover-btn:active {
     background-color: #fff;
 }
+a {
+    text-decoration: none;
+}
