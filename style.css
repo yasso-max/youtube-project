@@ -189,8 +189,15 @@ svg {
     background-color: #fff;
 }
 a {
-    text-decoration: none;
+  text-decoration: none; /* Removes underline from links */
+  color: inherit; /* Ensures the link text inherits the color from its parent */
 }
+
 a:visited {
-    text-decoration: none;
+  color: inherit; /* Removes the purple color for visited links */
+  text-decoration: none; /* Ensures no underline for visited links */
+}
+
+a div {
+  text-decoration: none; /* Ensures div inside an anchor has no underline */
 }
